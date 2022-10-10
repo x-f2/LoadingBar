@@ -10,13 +10,13 @@ RM := rm -f
 
 all: $(APPNAMES)
 
-Run: ../LoadingBar.o main.o
+Run: LoadingBar.o main.o
 	$(CXX) $(CXXFLAGS) $^ -o $@
 
 main.o: main.cc
 	$(CXX) $(CXXFLAGS) $(WARNINGS) -c $< -o $@
 
-LoadingBar.o: ../LoadingBar.cc ../LoadingBar.h
+LoadingBar.o: ../src/LoadingBar.cc ../src/LoadingBar.h
 	$(CXX) $(CXXFLAGS) $(WARNINGS) -c $< -o $@
 
 clean:
