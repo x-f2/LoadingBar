@@ -1,6 +1,5 @@
 /*
 	C++ Loading Bar
-	by Andy Byron
 	10/10/2022
 */
 
