@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../src/LoadingBar.h"
+#include "../LoadingBar.h"
 
 int main() {
 	srand(time(NULL));
