@@ -1,5 +1,5 @@
 /*
-	C++ Loading Bar - Single-file version
+	C++ Loading Bar
 	Created by x-2f
 	10/10/2022
 */
